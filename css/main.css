@@ -1,0 +1,47 @@
+html{
+    box-sizing: border-box;
+}
+
+*::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.block_container{
+    display: flex;
+    gap: 3em;
+    font-size: 1.5em;
+}
+
+.inner_mario_container{
+    border: 2px solid;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    padding: .50em;
+}
+
+.mario_container{
+    border: 2px solid;
+    width: fit-content;
+    margin: 3em auto;
+    padding: .50em;
+}
+
+.one_container{
+    display: flex;
+}
+
+.block_spacing{
+    color: transparent;
+}
+
+.turn_container_transparent{
+    color: transparent;
+}
